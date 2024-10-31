@@ -1,0 +1,42 @@
+CRITICAL - 2024-10-24 04:13:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "navbar.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navbar.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('navbar', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('beranda')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')
+CRITICAL - 2024-10-24 04:13:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "view/navbar.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view/navbar.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('view/navbar', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('beranda')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')
+CRITICAL - 2024-10-24 04:13:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "view/navbar.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view/navbar.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('view/navbar', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('beranda')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')

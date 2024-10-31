@@ -1,0 +1,26 @@
+CRITICAL - 2024-10-31 12:07:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/products.php"
+[Method: GET, Route: customer/product]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/products.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/products', [], true)
+ 3 APPPATH\Controllers\CustomerController.php(10): view('pelanggan/products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerController->product()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')
+CRITICAL - 2024-10-31 13:09:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kelola_users.php"
+[Method: GET, Route: admin/manage_users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelola_users.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kelola_users', [], true)
+ 3 APPPATH\Controllers\AdminController.php(9): view('kelola_users')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->Users()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')

@@ -1,0 +1,84 @@
+CRITICAL - 2024-10-23 13:44:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "berber.php"
+[Method: GET, Route: dbarber]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('berber.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('berber', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('berber')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dbarber()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')
+CRITICAL - 2024-10-23 13:44:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "barber.php"
+[Method: GET, Route: dbarber]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barber.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barber', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('barber')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dbarber()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')
+CRITICAL - 2024-10-23 13:44:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "barber.php"
+[Method: GET, Route: dbarber]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barber.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barber', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('barber')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dbarber()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')
+CRITICAL - 2024-10-23 13:45:24 --> ErrorException: Undefined variable $bookings
+[Method: GET, Route: dbarber]
+in APPPATH\Views\barber\barber.php on line 24.
+ 1 APPPATH\Views\barber\barber.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\app\\Views\\barber\\barber.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\app\\Views\\barber\\barber.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barber/barber', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('barber/barber')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dbarber()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')
+CRITICAL - 2024-10-23 13:46:16 --> ErrorException: Undefined variable $total_users
+[Method: GET, Route: dadmin]
+in APPPATH\Views\admin\admin.php on line 25.
+ 1 APPPATH\Views\admin\admin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_users', 'D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\app\\Views\\admin\\admin.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\app\\Views\\admin\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('admin/admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dadmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')
+CRITICAL - 2024-10-23 13:49:02 --> ErrorException: Undefined variable $bookings
+[Method: GET, Route: dbarber]
+in APPPATH\Views\barber\barber.php on line 54.
+ 1 APPPATH\Views\barber\barber.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\app\\Views\\barber\\barber.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\app\\Views\\barber\\barber.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barber/barber', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('barber/barber')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dbarber()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur\\public\\index.php')
