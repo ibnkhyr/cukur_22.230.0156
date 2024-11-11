@@ -28,3 +28,35 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-11 13:40:05 --> CodeIgniter\Router\Exceptions\RouterException: The route for "/login" cannot be found.
+[Method: GET, Route: /]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('/login')
+ 2 APPPATH/Views/beranda.php(58): url_to('/login')
+ 3 SYSTEMPATH/View/View.php(234): include('/Users/burhanudinmiroj/Documents/cukur_22.230.0156/app/Views/beranda.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH/Controllers/Home.php(9): view('beranda')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/burhanudinmiroj/Documents/cukur_22.230.0156/public/index.php')
+INFO - 2024-11-11 15:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 15:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 15:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 15:45:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/pesanan.php"
+[Method: GET, Route: customer/layanan]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/pesanan.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('pelanggan/pesanan', [], true)
+ 3 APPPATH/Controllers/Home.php(38): view('pelanggan/pesanan')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->layanan()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/burhanudinmiroj/Documents/cukur_22.230.0156/public/index.php')
