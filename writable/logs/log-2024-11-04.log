@@ -1,0 +1,50 @@
+CRITICAL - 2024-11-04 17:19:25 --> ErrorException: include(../partials/header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: dadmin]
+in APPPATH\Views\admin\dashboard.php on line 2.
+ 1 APPPATH\Views\admin\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../partials/header.php): Failed to open stream: No such file or directory', 'D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\admin\\dashboard.php', 2)
+ 2 APPPATH\Views\admin\dashboard.php(2): include()
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(26): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dadmin()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-04 17:57:23 --> CodeIgniter\Router\Exceptions\RouterException: The route for "paket.store" cannot be found.
+[Method: GET, Route: dadmin]
+in SYSTEMPATH\Helpers\url_helper.php on line 494.
+ 1 SYSTEMPATH\Helpers\url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('paket.store')
+ 2 APPPATH\Views\partials\header.php(16): url_to('paket.store')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\partials\\header.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('partials/header', [], true)
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(26): view('admin/dashboard')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dadmin()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-04 17:57:39 --> CodeIgniter\Router\Exceptions\RouterException: The route for "admin.Dashboard" cannot be found.
+[Method: GET, Route: dadmin]
+in SYSTEMPATH\Helpers\url_helper.php on line 494.
+ 1 SYSTEMPATH\Helpers\url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('admin.Dashboard')
+ 2 APPPATH\Views\partials\header.php(17): url_to('admin.Dashboard')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\partials\\header.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('partials/header', [], true)
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(26): view('admin/dashboard')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dadmin()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')

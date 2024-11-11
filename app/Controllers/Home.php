@@ -23,11 +23,11 @@ class Home extends BaseController
     }
     public function dadmin()
     {
-        return view('admin/admin');
+        return view('admin/dashboard');
     }
     public function dpelanggan()
     {
-        return view('pelanggan/pelanggan');
+        return view('pelanggan/dashboard');
     }
     public function dbarber()
     {

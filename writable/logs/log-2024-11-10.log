@@ -1,0 +1,223 @@
+CRITICAL - 2024-11-10 03:16:41 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: pelanggan-packages]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\pelanggan\package\packages.php(34): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\pelanggan\\package\\packages.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/package/packages', [], true)
+ 5 APPPATH\Controllers\PackageController.php(31): view('pelanggan/package/packages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PackageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PackageController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 03:22:25 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: pelanggan-packages]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\package\packages.php(34): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\package\\packages.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('package/packages', [], true)
+ 5 APPPATH\Controllers\PackageController.php(31): view('package/packages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PackageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PackageController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 03:22:39 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: pelanggan-packages]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\package\packages.php(34): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\package\\packages.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('package/packages', [], true)
+ 5 APPPATH\Controllers\PackageController.php(31): view('package/packages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PackageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PackageController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 03:24:48 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: pelanggan-packages]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\pelanggan\packages.php(34): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\pelanggan\\packages.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/packages', [], true)
+ 5 APPPATH\Controllers\PackageController.php(31): view('pelanggan/packages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PackageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PackageController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 03:28:14 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: pelanggan-packages]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\package\packages.php(34): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\package\\packages.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('package/packages', [], true)
+ 5 APPPATH\Controllers\PackageController.php(31): view('package/packages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PackageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PackageController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 03:35:18 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: pelanggan-packages]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\package\packages.php(34): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\package\\packages.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('package/packages', [], true)
+ 5 APPPATH\Controllers\PackageController.php(31): view('package/packages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PackageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PackageController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 03:38:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/package/package-detail.php"
+[Method: GET, Route: package/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/package/package-detail.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/package/package-detail', [], true)
+ 3 APPPATH\Controllers\PackageController.php(76): view('pelanggan/package/package-detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PackageController->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PackageController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+INFO - 2024-11-10 03:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 03:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 03:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 03:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 03:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 03:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 04:24:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "menu.php"
+[Method: GET, Route: pelanggan-menu]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('menu', [], true)
+ 3 APPPATH\Controllers\MenuController.php(25): view('menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 05:05:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/template.php"
+[Method: GET, Route: pelanggan-menu]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/menu/menu', [], true)
+ 4 APPPATH\Controllers\MenuController.php(25): view('pelanggan/menu/menu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 05:08:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/template.php"
+[Method: GET, Route: pelanggan-menu]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/menu/menu', [], true)
+ 4 APPPATH\Controllers\MenuController.php(25): view('pelanggan/menu/menu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 08:24:33 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: pelanggan-menu]
+in APPPATH\Views\pelanggan\menu\menu.php on line 36.
+ 1 APPPATH\Views\pelanggan\menu\menu.php(36): number_format('25,000', 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\pelanggan\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/menu/menu', [], true)
+ 5 APPPATH\Controllers\MenuController.php(25): view('pelanggan/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 08:24:45 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: pelanggan-menu]
+in APPPATH\Views\pelanggan\menu\menu.php on line 36.
+ 1 APPPATH\Views\pelanggan\menu\menu.php(36): number_format('25,000', 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\pelanggan\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/menu/menu', [], true)
+ 5 APPPATH\Controllers\MenuController.php(25): view('pelanggan/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 08:24:50 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: pelanggan-menu]
+in APPPATH\Views\pelanggan\menu\menu.php on line 36.
+ 1 APPPATH\Views\pelanggan\menu\menu.php(36): number_format('25,000', 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\pelanggan\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/menu/menu', [], true)
+ 5 APPPATH\Controllers\MenuController.php(25): view('pelanggan/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 08:24:58 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: pelanggan-menu]
+in APPPATH\Views\pelanggan\menu\menu.php on line 36.
+ 1 APPPATH\Views\pelanggan\menu\menu.php(36): number_format('25,000', 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\app\\Views\\pelanggan\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/menu/menu', [], true)
+ 5 APPPATH\Controllers\MenuController.php(25): view('pelanggan/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-10 08:26:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "menu.php"
+[Method: GET, Route: pelanggan-menu]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('menu', [], true)
+ 3 APPPATH\Controllers\MenuController.php(18): view('menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')

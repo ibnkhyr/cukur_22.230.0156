@@ -1,0 +1,40 @@
+/* public/css/menu.css */
+.menu-page {
+    padding: 20px;
+}
+
+.menu-page .category-sidebar h5 {
+    margin-bottom: 10px;
+}
+
+.menu-page .list-group-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-page .list-group-item a:hover {
+    color: #007bff;
+}
+
+.menu-page .card {
+    border: 1px solid #ddd;
+}
+
+.menu-page .card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.menu-page .card-title {
+    font-size: 1.2em;
+}
+
+.menu-page .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.menu-page .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}

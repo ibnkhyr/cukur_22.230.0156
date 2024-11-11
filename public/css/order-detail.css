@@ -1,0 +1,34 @@
+.order-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.payment-button {
+    display: block;
+    text-align: center;
+    background-color: #f59e0b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.payment-button:hover {
+    background-color: #d97706;
+}

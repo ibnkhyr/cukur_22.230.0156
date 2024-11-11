@@ -1,0 +1,30 @@
+INFO - 2024-11-11 05:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 05:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 05:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 05:51:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detail_menu.php"
+[Method: GET, Route: menu/detail/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail_menu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detail_menu', [], true)
+ 3 APPPATH\Controllers\MenuController.php(68): view('detail_menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')
+CRITICAL - 2024-11-11 05:51:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/sidebar.pel"
+[Method: GET, Route: menu/detail/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/sidebar.pel')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('partials/sidebar.pel', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/menu/detail_menu', [], true)
+ 4 APPPATH\Controllers\MenuController.php(68): view('pelanggan/menu/detail_menu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Perkulian💪\\Semester 5\\E-Commerce\\Cukur - Copy\\public\\index.php')

@@ -14,8 +14,8 @@
     <nav class="navbar navbar-expand-lg transparent-navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="Logo Barber Shop" class="navbar-logo">
-                CUKURukuk BARBER
+                <img src="images/logo_catering.png" alt="Logo Barber Shop" class="navbar-logo">
+                CATERING
             </a>
             <div class="ml-auto">
                 <a class="btn btn-outline-light" href="/register">Daftar</a>
@@ -33,10 +33,10 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="images/barber1.jpg" alt="Slide 1">
+                <img class="d-block w-100" src="images/catering1.jpg" alt="Slide 1">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/barber2.jpg" alt="Slide 2">
+                <img class="d-block w-100" src="images/catering2.png" alt="Slide 2">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="images/barber3.jpg" alt="Slide 3">

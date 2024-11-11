@@ -1,0 +1,33 @@
+/* public/css/menu_detail.css */
+.detail-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.detail-page .card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.detail-page .img-fluid {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.detail-page h2 {
+    font-weight: bold;
+}
+
+.detail-page h4 {
+    color: #e74c3c;
+}
+
+.detail-page p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+.detail-page .btn {
+    padding: 10px 20px;
+    font-size: 1.1em;
+}

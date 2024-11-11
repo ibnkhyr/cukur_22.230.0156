@@ -1,0 +1,113 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #1f2937;
+    padding: 20px;
+    color: #fff;
+    height: 100vh;
+}
+
+.logo h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    padding: 10px 0;
+    color: #cbd5e1;
+    text-decoration: none;
+}
+
+.menu-item:hover,
+.menu-item.active {
+    color: #f59e0b;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.package-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.package-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.package-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.package-detail p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.menu-list li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.order-button {
+    background-color: #f59e0b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: #d97706;
+}
